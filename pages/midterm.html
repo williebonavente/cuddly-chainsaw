@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/midterm.css">
+    <link rel="shortcut icon" href="../assets/imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Midterm</title>
+</head>
+<!-- TODO:Add the nav bar  -->
+
+<body>
+    <div class="main-content">
+        <div class="container">
+            <div class="card">
+                <h2>Midterm Quizzes</h2>
+                <p>My quizzes and its precious score.</p>
+                <!-- Add your quiz content here -->
+                <table>
+                    <tr>
+                        <td>
+                            <img src="../assets/imgs/quizzes/quiz1.jpg" alt="Quiz 1">
+                            <button onclick="openModal('quiz1', 'quizzes')">View Reflection</button>
+                        </td>
+                        <td>
+                            <img src="../assets/imgs/quizzes/quiz2.jpg" alt="Quiz 2">
+                            <button onclick="openModal('quiz2', 'quizzes')">View Reflection</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="../assets/imgs/quizzes/ww1.jpg" alt="Written Work 1">
+                            <button onclick="openModal('quiz3', 'quizzes')">View Reflection</button>
+                        </td>
+                        <td>
+                            <img src="../assets/imgs/quizzes/ww2.jpg" alt="Written Work 2">
+                            <button onclick="openModal('quiz4', 'quizzes')">View Reflection</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container">
+                <!-- Add your activities content here -->
+                <div class="card scores-act">
+                    <h2>Midterm Activities</h2>
+                    <p>My Midterm Activities. Submission Part.</p>
+                    <table>
+                        <tr>
+                            <td><img src="../assets/imgs/Activities/scores/Act_1.jpg" alt="" srcset="">
+                                <button onclick="openModal('act1', 'activities')">View Reflection</button>
+                            </td>
+                            <td><img src="../assets/imgs/Activities/Act_1.jpg" alt="" srcset=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/imgs/Activities/scores/Act_2.jpg" alt="" srcset="">
+                                <button onclick="openModal('act2', 'activities')">View Reflection</button>
+                            </td>
+                            <td><img src="../assets/imgs/Activities/Act_2.jpg" alt="" srcset=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/imgs/Activities/scores/Act_3.jpg" alt="" srcset="">
+                                <button onclick="openModal('act3', 'activities')">View Reflection</button>
+                            </td>
+                            <td><img src="../assets/imgs/Activities/Act_3.jpg" alt="" srcset=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/imgs/Activities/scores/Act_4.jpg" alt="" srcset="">
+                                <button onclick="openModal('act4', 'activities')">View Reflection</button>
+                            </td>
+                            <td><img src="../assets/imgs/Activities/Act_4.jpg" alt="" srcset=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/imgs/Activities/scores/Act_5.jpg" alt="" srcset="">
+                                <button onclick="openModal('act5', 'activities')">View Reflection</button>
+                            </td>
+                            <td><img src="../assets/imgs/Activities/Act_5.jpg" alt="" srcset=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/imgs/Activities/scores/Act_6.jpg" alt="" srcset="">
+                                <button onclick="openModal('act6', 'activities')">View Reflection</button>
+                            </td>
+                            <td><img src="../assets/imgs/Activities/Act_6.jpg" alt="" srcset=""></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <!-- Add your exam content here -->
+                    <div class="card mid-term">
+                        <h2>Midterm Exam</h2>
+                        <p>Midterm Examination by Group.</p>
+                        <table>
+                            <tr>
+                                <td><img src="../assets/imgs/Activities/scores/mid_term.jpg" alt="">
+                                    <button onclick="openModal('midterms', 'midterms')">View Reflection</button>
+                                </td>
+                                <td><img src="../assets/imgs/midterm_quizz_app_output.jpg" alt=""></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="card assignments">
+                        <h2>Assignments</h2>
+                        <img src="../assets/imgs/Assignment_1.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card about-me">
+                        <h2>About Me Activity</h2>
+                        <img src="../assets/imgs/about_me.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="quiz1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('quiz1')">&times;</span>
+            <div id="quiz1-content"></div>
+        </div>
+    </div>
+    <div id="quiz2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('quiz2')">&times;</span>
+            <div id="quiz2-content"></div>
+        </div>
+    </div>
+    <div id="quiz3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('quiz3')">&times;</span>
+            <div id="quiz3-content"></div>
+        </div>
+    </div>
+    <div id="quiz4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('quiz4')">&times;</span>
+            <div id="quiz4-content"></div>
+        </div>
+    </div>
+
+    <!-- Modal for activities  -->
+    <div id="act1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('act1')">&times;</span>
+            <div id="act1-content"></div>
+        </div>
+    </div>
+    <div id="act2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('act2')">&times;</span>
+            <div id="act2-content"></div>
+        </div>
+    </div>
+    <div id="act3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('act3')">&times;</span>
+            <div id="act3-content"></div>
+        </div>
+    </div>
+    <div id="act4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('act4')">&times;</span>
+            <div id="act4-content"></div>
+        </div>
+    </div>
+    <div id="act5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('act5')">&times;</span>
+            <div id="act5-content"></div>
+        </div>
+    </div>
+    <div id="act6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('act6')">&times;</span>
+            <div id="act6-content"></div>
+        </div>
+    </div>
+
+
+    <!-- Modal for midterms  -->
+    <div id="midterms" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('midterms')">&times;</span>
+            <div id="midterms-content"></div>
+        </div>
+        <script src="../scripts/reflection.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+
+</html>
