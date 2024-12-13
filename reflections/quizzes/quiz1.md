@@ -1,7 +1,2 @@
-# Testing 1
-
-fadkfjdl;jfkalsjf
-
-
-`@ggez` :)
-**r**
+# Quiz 1 Reflection
+`The first quiz was challenging as it required a solid grasp of fundamental concepts, particularly basic semantic HTML. My score was 24 out of 30, which reflects a decent effort, but there is significant room for improvement. This experience highlighted the importance of revisiting foundational knowledge and ensuring a more balanced understanding to perform better in future assessments.`

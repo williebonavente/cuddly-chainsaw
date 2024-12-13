@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/midterm.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="shortcut icon" href="../assets/imgs/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,6 +14,20 @@
 <!-- TODO:Add the nav bar  -->
 
 <body>
+    <!-- Navbar -->
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="./midterm.html">Midterm</a>
+            </li>
+            <li>
+                <a href="./final.html">Final</a>
+            </li>
+        </ul>
+    </nav>
     <div class="main-content">
         <div class="container">
             <div class="card">
@@ -106,13 +121,27 @@
                 <div class="container">
                     <div class="card assignments">
                         <h2>Assignments</h2>
-                        <img src="../assets/imgs/Assignment_1.jpg" alt="" srcset="">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="../assets/imgs/Assignment_1.jpg" alt="" srcset="">
+                                    <button onclick="openModal('assignments', 'assignments')">View Reflection</button>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 <div class="container">
                     <div class="card about-me">
                         <h2>About Me Activity</h2>
-                        <img src="../assets/imgs/about_me.jpg" alt="">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="../assets/imgs/about_me.jpg" alt="">
+                                    <button onclick="openModal('about_me', 'about_me')">View Reflection</button>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -190,8 +219,24 @@
             <span class="close" onclick="closeModal('midterms')">&times;</span>
             <div id="midterms-content"></div>
         </div>
-        <script src="../scripts/reflection.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    </div>
+
+    <!-- Modal for assignments -->
+    <div id="assignments" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('assignments')">&times;</span>
+            <div id="assignments-content"></div>
+        </div>
+    </div>
+    <!-- Modal for about me -->
+    <div id="about_me" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('about_me')">&times;</span>
+            <div id="about_me-content"></div>
+        </div>
+    </div>
+    <script src="../scripts/reflection.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </body>
 
 </html>

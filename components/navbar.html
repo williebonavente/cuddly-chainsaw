@@ -1,0 +1,62 @@
+<head>
+    <style>
+        .nav {
+            display: flex;
+            justify-content: flex-end;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: var(--main-red);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+            z-index: 10;
+        }
+
+        .nav-list {
+            display: flex;
+            margin-right: 2rem;
+        }
+
+        @media (max-width: 28.75em) {
+            .nav {
+                justify-content: center;
+            }
+
+            .nav-list {
+                margin: 0 1rem;
+            }
+        }
+
+        .nav-list a {
+            display: block;
+            font-size: 2.2rem;
+            padding: 2rem;
+        }
+
+        .nav-list a:hover {
+            background: var(--main-blue);
+        }
+    </style>
+</head>
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li>
+            <a href="#welcome-section">About</a>
+        </li>
+        <li>
+            <a href="#projects">Work</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="./pages/midterm.html">Midterm</a>
+        </li>
+        <li>
+            <a href="./pages/final.html">Final</a>
+        </li>
+    </ul>
+</nav>

@@ -1,1 +1,2 @@
-Testing 1
+# Written Work Reflection
+`The second question of the written work presented confusion due to its unclear format and the ambiguity of the expected outcome. This uncertainty made it difficult to determine the correct approach to the answer, leading to a sense of doubt throughout the process of tracing the correct values to answer the question being raised.` 
