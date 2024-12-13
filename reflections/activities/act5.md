@@ -1,1 +1,2 @@
-# Reflection something 5 
+# Data Structures: Arrays Reflection
+``` Arrays are more than just lists; they are the backbone of data structures and algorithms, supporting powerful methods like push(), pop(), and peek(). These methods aren't just "nice-to-haves" — they are essential tools for manipulating and controlling data. Mastering these functions was a satisfying experience, especially as I witnessed their practical application in real-world scenarios. There's something uniquely rewarding about seeing abstract concepts come to life in the form of efficient, functional code.```

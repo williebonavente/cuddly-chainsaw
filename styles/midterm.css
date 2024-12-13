@@ -36,9 +36,12 @@ table img {
 }
 
 /* Modals */
+body.modal-open {
+  overflow: hidden;
+}
+
 .modal-open {
     filter: blur(5px);
-    overflow: hidden;
 }
 
 .modal {

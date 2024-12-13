@@ -1,1 +1,2 @@
-# Reflection something 3 
+# Bootstrap CSS Reflection
+` Building my basic portfolio required diving into the world of CSS and Bootstrap, and while it may seem simple to outsiders, it was no walk in the park. I took the initiative to read documentation — not just skim it — to ensure I had a firm grasp of the concepts. No shortcuts, no copy-pasting random snippets. This hands-on experience built a foundation that extends beyond just "passing the unit" — it set the stage for future growth in web development.`

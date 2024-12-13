@@ -1,1 +1,2 @@
-# Reflection something 6
+# Modularity Reflection: Functions
+` Functions are the epitome of reusable, maintainable, and modular code. Throughout this activity, I fully embraced their power, breaking down larger, more complex tasks into simple, focused functions. This approach wasn’t just about "making it work" — it was about creating clean, maintainable, and scalable code. By leveraging modularity, I avoided repetitive code and ensured future adjustments would be easy to manage. It’s a principle every developer should respect, and I made sure to apply it at every opportunity.`

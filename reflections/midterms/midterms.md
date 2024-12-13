@@ -1,2 +1,5 @@
-`UwU pasadong midterms1 ` 
-# Web Dev
+# Midterm Examination Reflection: Developing the Quiz Application
+
+` The project, aptly named Quivelop, symbolizes our team's collaborative effort to create a functional quiz application. Our approach utilized raw HTML, CSS, and JavaScript, demonstrating a clear focus on the fundamentals of web development. While the design served its purpose, it remained entirely static — a limitation that highlighted areas for growth. Scoring was also hardcoded, exposing the system to inaccuracies and emphasizing the need for a more dynamic, data-driven approach.`
+
+`The absence of responsiveness was a significant setback, as modern web applications demand flexibility across devices. This limitation became a crucial learning point for us. Moving forward, incorporating responsive design principles using media queries or frameworks like Bootstrap would greatly improve the user experience. Despite these challenges, Quivelop stands as a testament to our determination, resourcefulness, and commitment to mastering the building blocks of development. The experience underscored the importance of adaptability, scalability, and continuous improvement in every development project.`

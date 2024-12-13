@@ -1,1 +1,2 @@
-# About me
+# Reflection: About Me
+` The "About Me" activity allowed me to present my authentic self with raw honesty and unwavering candor. Guided prompts may have shaped my responses, but every answer remained a true reflection of my values, beliefs, and personal growth. Through this process, I embraced integrity and self-awareness, showcasing a version of myself that is both unfiltered and genuine.`
